@@ -1,0 +1,17 @@
+## 🗃️ Example BigQuery SQL
+
+**CBP (simplified): controlled BP last reading in MY:**
+```sql
+WITH last_bp AS (
+  SELECT
+    member_id,
+    ARRAY_AGG(STRUCT(bp_systolic, bp_diastolic, measurement_date)
+              ORDER BY measurement_date DESC LIMIT 1)[OFFSET(0)] AS last_reading
+  FROM `project.dataset.encounters`
+  WHERE measurement_date BETWEEN DATE('2025-01-01') AND DATE('2025-12-31')
+  GROUP BY member_id
+)
+SELECT
+  member_id,
+  (last_reading.bp_systolic < 140 AND last_reading.bp_diastolic < 90) AS controlled_bp
+FROM last_bp;
