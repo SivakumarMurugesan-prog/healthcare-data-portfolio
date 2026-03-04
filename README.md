@@ -1,45 +1,18 @@
+# Healthcare Data Analytics Portfolio
 
-👋 Hi, I'm Sivakumar Murugesan
-Senior Healthcare Data Analyst | CMS Risk Adjustment | HEDIS | BigQuery | SQL | ETL
-I’m a Healthcare Data Analyst with 16+ years of experience supporting U.S. payer organizations including Aetna/CVS Health and UnitedHealthCare (UHG). I specialize in CMS Risk Adjustment, HEDIS/NCQA quality measures, and end‑to‑end ETL pipeline design across Medicare and Commercial lines of business.
-This portfolio showcases my hands‑on work in SQL, BigQuery, Power BI, ETL mapping (STTM), claims/encounter analytics, and healthcare regulatory reporting.
+**Sivakumar Murugesan**  
+Senior Healthcare Data Analyst — CMS Risk Adjustment | HEDIS/NCQA | BigQuery | SQL | ETL
 
-🔍 What I Do
+This portfolio showcases end‑to‑end healthcare analytics work across **CMS Risk Adjustment (RAPS/EDPS)**, **HEDIS measures**, **Claims & Encounter analytics**, and **Membership/Provider data**. All datasets here are **synthetic** and for demonstration only.
 
-CMS Risk Adjustment: RAPS, EDIFECS submissions, HCC analytics
-HEDIS / NCQA measures: BCS, CBP, PCR using QME
-Claims, encounters, membership & provider data analysis
-ETL design: STTM specs for DataStage & Ab Initio
-Cloud analytics using GCP BigQuery & Hadoop
-Power BI dashboards for healthcare quality & risk metrics
+---
 
+## 🔍 Focus Areas
+- **CMS Risk Adjustment:** RAPS/EDPS simulation, HCC identification, submission validation
+- **HEDIS / NCQA:** BCS, CBP, PCR logic with QME-style rules and reporting
+- **Claims & Encounters:** Quality checks, joins, analytic marts in BigQuery
+- **Membership & Provider:** Reconciliation, panel attribution, reference dimensions
 
-🚀 Key Accomplishments
+---
 
-Processed 16M+ claims and 2.5M membership records, achieving 99.9% CMS acceptance
-Built HEDIS QMART reporting tool for NCQA measure automation
-Developed 50+ STTM/ETL specifications across Medicare & Commercial pipelines
-Supported multi‑state reporting (NY APCD, FL DSNP, IN DSNP)
-Improved Medicare Advantage data quality & RAF score accuracy
-
-
-🛠️ Tech Stack
-Languages: SQL (BigQuery, DB2, HiveQL, SAS SQL)
-ETL Tools: IBM DataStage, Ab Initio, STTM, Airflow
-Cloud: GCP BigQuery, Hadoop Ecosystem, Databricks
-BI & Visualization: Power BI
-Healthcare Domains: CMS RA, HEDIS/NCQA, APCD, DSNP, 837 EDI
-
-📁 Projects in This Portfolio
-
-HEDIS Quality Measures Explorer (Power BI + SQL)
-Risk Adjustment Claims Pipeline (BigQuery)
-CMS RAPS Submission Workflow Simulation
-Member & Claims Data Quality Analyzer
-SQL Healthcare Analytics Case Studies
-
-
-📫 Connect With Me
-
-LinkedIn: www.linkedin.com/in/sivakumar-murugesan-01666371
-Email: shivum88@gmail.com
+## 🗂 Repo Structure (high level)
