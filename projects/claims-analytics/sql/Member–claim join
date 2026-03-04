@@ -1,0 +1,7 @@
+
+SELECT
+  c.claim_id, c.member_id, c.service_date, c.paid_amount,
+  m.gender, m.dob
+FROM `project.dataset.claims` AS c
+LEFT JOIN `project.dataset.members` AS m
+  ON m.member_id = c.member_id;
