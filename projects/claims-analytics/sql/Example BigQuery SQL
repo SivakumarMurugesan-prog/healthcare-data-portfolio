@@ -1,0 +1,9 @@
+## 🗃️ Example BigQuery SQL
+
+**QC: missing fields & invalid dates**
+```sql
+SELECT
+  COUNTIF(claim_id IS NULL) AS missing_claim_id,
+  COUNTIF(member_id IS NULL) AS missing_member_id,
+  COUNTIF(service_date < DATE '2000-01-01') AS invalid_service_date
+FROM `project.dataset.claims`;
