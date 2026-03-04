@@ -1,8 +1,3 @@
-### B) HEDIS Measures  
-**Branch:** `feature/hedis-measures`  
-**File:** `projects/hedis-measures/README.md`
-
-```md
 # HEDIS / NCQA Measures — Project
 
 ## 🎯 Objective
