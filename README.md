@@ -16,3 +16,30 @@ This portfolio showcases end‑to‑end healthcare analytics work across **CMS R
 ---
 
 ## 🗂 Repo Structure (high level)
+
+---
+
+## 🚀 Featured Projects
+| Project | Description |
+|---|---|
+| **CMS Risk Adjustment** | Simulated ingestion, validation, and submission prep (RAPS/EDPS), HCC analytics, acceptance checks |
+| **HEDIS Measures** | Automated calculation for BCS, CBP, PCR with measure logic, metadata, and sample dashboards |
+| **Claims Analytics** | Claims/encounter QC, joins, and fact/dimension models in BigQuery |
+| **Membership & Provider** | Member/provider data reconciliation and reference dimensions |
+
+---
+
+## 🛠️ Tools & Skills
+**SQL:** BigQuery, DB2, HiveQL, SAS SQL  
+**ETL/Specs:** DataStage (STTM), Ab Initio, Airflow (design/specs)  
+**Cloud & Data:** GCP BigQuery, Hadoop, Databricks  
+**BI:** Power BI (sample reports)  
+**Healthcare:** CMS Risk Adjustment, HEDIS/NCQA, DSNP, APCD, 837 EDI
+
+---
+
+## 📫 Connect
+- **LinkedIn:** linkedin.com/in/sivakumar-murugesan-01666371  
+- **Email:** shivum88@gmail.com
+
+> © This portfolio uses **synthetic/anonymized data** only.
