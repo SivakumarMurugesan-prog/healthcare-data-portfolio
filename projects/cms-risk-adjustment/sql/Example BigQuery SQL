@@ -1,1 +1,13 @@
 
+**HCC candidate extraction (illustrative):**
+```sql
+SELECT
+  c.member_id,
+  c.diagnosis_code,
+  ANY_VALUE(m.dob) AS member_dob,
+  EXTRACT(YEAR FROM c.service_date) AS service_year
+FROM `project.dataset.claims` AS c
+JOIN `project.dataset.members` AS m
+  ON m.member_id = c.member_id
+WHERE service_date BETWEEN DATE('2025-01-01') AND DATE('2025-12-31')
+  AND diagnosis_code IS NOT NULL;
