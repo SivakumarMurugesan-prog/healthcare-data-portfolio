@@ -1,0 +1,6 @@
+
+SELECT
+  COUNTIF(diagnosis_code IS NULL) AS null_dx,
+  COUNTIF(member_id IS NULL) AS null_member,
+  COUNT(*) AS total_rows
+FROM `project.dataset.raps_submission_staging`;
