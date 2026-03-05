@@ -1,0 +1,8 @@
+SELECT
+  m.member_id,
+  ANY_VALUE(p.provider_id) AS attributed_pcp
+FROM `project.dataset.encounters` e
+JOIN `project.dataset.providers` p ON p.provider_id = e.provider_id
+JOIN `project.dataset.members`   m ON m.member_id   = e.member_id
+WHERE e.service_date BETWEEN DATE('2025-01-01') AND DATE('2025-12-31')
+GROUP BY m.member_id;
