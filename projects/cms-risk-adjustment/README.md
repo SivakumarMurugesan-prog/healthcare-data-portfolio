@@ -1,13 +1,12 @@
-# CMS Risk Adjustment Project
 
-## Objective
-Simulate data ingestion, validation, and risk adjustment processing logic.
+# CMS Risk Adjustment (RAPS / EDPS) — Project
 
-## Contents
-- /sql
-- /data (synthetic only)
-- /notebooks
-- /dashboard
+## 🎯 Objective
+Demonstrate a simplified, end‑to‑end **Medicare Advantage Risk Adjustment** workflow using **synthetic data**: ingest → validate → transform → prepare submission‑ready files → run acceptance checks.
 
-## Notes
-All data is synthetic and anonymized.
+> All data is synthetic and anonymized. No PHI/PII.
+
+---
+
+## 🧱 Contents
+
