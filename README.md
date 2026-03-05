@@ -1,3 +1,6 @@
+
+<img width="1536" height="1024" alt="Designer (1)" src="https://github.com/user-attachments/assets/06702a48-948b-4655-9245-20192d2c6bc5" />
+
 # Healthcare Data Analytics Portfolio
 
 **Sivakumar Murugesan**  
