@@ -1,0 +1,13 @@
+## 🗃️ Example BigQuery SQL
+
+**Member dimension (dedupe)**
+```sql
+CREATE OR REPLACE TABLE `project.dataset.dim_member` AS
+SELECT
+  member_id,
+  ANY_VALUE(first_name) AS first_name,
+  ANY_VALUE(last_name)  AS last_name,
+  MIN(effective_date)   AS first_effective_date,
+  MAX(term_date)        AS last_term_date
+FROM `project.dataset.members_raw`
+GROUP BY member_id;
