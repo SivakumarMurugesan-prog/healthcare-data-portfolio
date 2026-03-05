@@ -1,8 +1,3 @@
-### C) Claims Analytics  
-**Branch:** `feature/claims-analytics`  
-**File:** `projects/claims-analytics/README.md`
-
-```md
 # Claims & Encounter Analytics — Project
 
 ## 🎯 Objective
